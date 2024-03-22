@@ -16,7 +16,7 @@ jobs:
         with:
           python-version: '3.11'
       - name: run python program
-        run: p2ython index.py
+        run: python index.py
  
   Example_environment_variables:
     needs: Runs_the_Python_Program
